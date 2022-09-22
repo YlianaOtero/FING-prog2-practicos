@@ -21,9 +21,9 @@ int minimo(int a, int b, int c, int d, int e) {
     return min;
 }
 
-float promClase(int a, int b, int c, int d, int e) {
-    int sumaNota = a + b + c + d + e;
-    int notaMin = minimo(a, b, c, d, e);
+float promClase(int nota1, int nota2, int nota3, int nota4, int nota5) {
+    int sumaNota = nota1 + nota2 + nota3 + nota4 + nota5;
+    int notaMin = minimo(nota1, nota2, nota3, nota4, nota5);
     float resultado = (sumaNota - notaMin)/4.0;
     return resultado;
 }
